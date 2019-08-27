@@ -14,7 +14,7 @@ To make the website, I'll be using Jekyll, HTML/CSS, and Javascript.
 
 Using Figma, I drafted what I wanted the website to look like. Below is the homepage:
 
-![website preview](https://www.dropbox.com/s/sq1jztr0t3dc8mm/Screen%20Shot%202019-08-27%20at%205.03.58%20PM.png?dl=1)
+![website preview](https://drive.google.com/uc?export=view&id=1YaoknDsOJt5iwFwLgW6WqWhA2fjdoyOm)
 
 ## Features to be Implemented
 
