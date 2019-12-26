@@ -1,19 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }}</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url}}></link>
+    <title>Matchapixel Photography</title>  
 
-</head>
+    <!--for fixed header -->
+    <div class="header" id="myHeader">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <a href="/index.html"><style>
+      .square {
+        height: 25px;
+        width: 25px;
+        background-color: #A5C476;
+      }</style></a>
+      <div>
+        <div class="square"></div><span> <a href="index.html" style="color:#A5C476">DIANA NGUYEN</a> </span>
+      </div>
+      <nav>
+        <br/>
+        <a href="/index.html">Selected Works</a> | 
+        <a href="/about.html">Street</a> |
+        <a href="/blog.html">Architecture</a> |
+        <a href="/blog.html">Nature</a> <br/> <br />
+        <a href="/about.html">About</a> |
+        <a href="/contact.html">Contact</a> 
 
-<body>
-    {% include navigation.html %}
-    <div class="container">
-      {{ content }}
-    </div>
 
+      </nav>
+      
+      
+    </div> 
+    
+    <!-- javascript for fixed header -->
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
+  
+  <body>
+    {{ content }}
+  </body>
+ 
 
-</body>
+  </head>
+ 
+
+  <footer>
+    <p>ALL IMAGES AND TEXT &#169; 2016 - 2020 DIANA NGUYEN</p>
+  </footer>
+  
+    
+    
+      
+
+   
+  
 </html>
+
