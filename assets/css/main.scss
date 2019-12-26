@@ -1,0 +1,99 @@
+---
+# for jekyll
+---
+
+@import 'colors';
+@import 'typography';
+
+h1 {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover {
+    color: #A5C476;
+}
+
+a.active {
+    color: #A5C476;
+}
+
+ /* Style the header */
+ .header {
+    padding: 10px 16px;
+    background: #FEFEFA;
+    color: #A5C476;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  } 
+
+.square {
+display: inline-block;
+}
+
+
+nav {
+font-size: 18px;
+text-transform: uppercase;
+color: black;
+display: inline-block;
+}
+
+footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    background: rgba(165, 196, 118, 0.07);
+    color: rgba(115, 149, 62, 0.7);
+    text-align: center;
+    padding: 1em;
+}
+
+//   changing height of breaks
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 10%;
+  }
+
+body {
+    font-family: $ff-s;
+    padding: 20px;
+}
+
+  
+body {
+    color: #2D2D2D;
+    background: #FEFEFA;
+}
