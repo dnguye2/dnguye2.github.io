@@ -5,6 +5,7 @@
 @import 'colors';
 @import 'typography';
 
+// Heading formatting
 h1 {
     text-transform: uppercase;
     font-family: Roboto;
@@ -12,7 +13,8 @@ h1 {
     font-weight: 300;
     font-size: 25px;
   }
-  
+
+// Styling links
 a {
     text-decoration: none;
     color: black; 
@@ -26,10 +28,11 @@ a.active {
     color: #A5C476;
 }
 
- /* Style the header */
+ /* Style the fixed header */
  .header {
-    padding: 10px 16px;
-    background: #FEFEFA;
+    grid-columns: 1 / 9;
+    padding: 20px 20px;
+    background: #FFFFFF;
     color: #A5C476;
     font-family: Roboto;
     font-style: normal;
@@ -40,7 +43,8 @@ a.active {
   
   /* Page content */
   .content {
-    padding: 16px;
+    grid-columns: 1 / 9;
+    padding: 10px;
   }
   
   /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -52,14 +56,15 @@ a.active {
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
-    padding-top: 102px;
+    padding-top: 90px;
   } 
 
-.square {
+// Styling square to be inline
+logo {
 display: inline-block;
 }
 
-
+// Styling navigation
 nav {
 font-size: 18px;
 text-transform: uppercase;
@@ -67,19 +72,9 @@ color: black;
 display: inline-block;
 }
 
-footer {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14px;
-    background: rgba(165, 196, 118, 0.07);
-    color: rgba(115, 149, 62, 0.7);
-    text-align: center;
-    padding: 1em;
-}
 
-//   changing height of breaks
+
+// Changing height of breaks
 br {
     content: "";
     margin: 2em;
@@ -87,13 +82,71 @@ br {
     font-size: 10%;
   }
 
+// Styling body text, format, and colors
 body {
-    font-family: $ff-s;
-    padding: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+    // margin: 0;
+    // display: grid;
+    // grid-template-columns: 
+    //   1fr [container-start]
+    //   repeat(6, minmax(50px, 250px))
+    //   [container-end] 1fr;
+    // grid-gap: 2em 1em;
 }
 
   
 body {
     color: #2D2D2D;
-    background: #FEFEFA;
+    background: #ffffff;
+    padding-bottom: 100px;
 }
+
+p {
+  grid-columns: 3 / 6;
+}
+
+
+#page-container{
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-height: 100%;
+}
+
+// Styling footer
+
+#content-wrap {
+  padding-bottom: 75px;    /* Footer height */
+}
+
+.footer {
+//   height: $footerHeight;
+//   max-height: $footerHeight;
+//   overflow: hidden;
+//   grid-columns: 1 / 9;
+//   margin: 0;
+//   font-family: Roboto;
+//   font-style: normal;
+//   font-weight: 300;
+//   font-size: 12px;
+//   line-height: 14px;
+//   background: rgba(165, 196, 118, 0.07);
+//   color: rgba(115, 149, 62, 0.7);
+//   text-align: center;
+//   // padding: 2em 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    background: rgba(165, 196, 118, 0.07);
+    color: rgba(115, 149, 62, 0.7);
+    padding: 2em 1;
+    
+ 
+}
+
+// Styling Contact Form
+// button
