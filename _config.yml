@@ -4,3 +4,6 @@ name: Matchapixel Photography
 # Google analytics helper for page views
 google_analytics: "UA-00000000-1"
 anonymize_ip: true
+
+gems:
+  - jekyll-compass

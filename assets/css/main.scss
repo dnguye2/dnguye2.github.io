@@ -1,7 +1,6 @@
 ---
-# for jekyll
 ---
-
+@import 'bootstrap/bootstrap';
 @import 'colors';
 @import 'typography';
 
@@ -40,7 +39,8 @@ a.active {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 33px;
+    font-size: 25px;
+    text-align: center;
 
   }
   
@@ -48,8 +48,15 @@ a.active {
   .content {
     grid-columns: 1 / 9;
     padding: 10px;
+    width: 50%;
   }
   
+  /* Positioning of matchapixel */
+  .logo {
+    padding-bottom: 3px;
+    display: inline-block;
+  }
+
   /* The sticky class is added to the header with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
@@ -61,11 +68,6 @@ a.active {
   .sticky + .content {
     padding-top: 90px;
   } 
-
-// Styling square to be inline
-logo {
-  display: inline-block;
-}
 
 // Styling navigation
 nav {
@@ -130,20 +132,6 @@ body::after{
   height: 150px; }
 
 footer {
-//   height: $footerHeight;
-//   max-height: $footerHeight;
-//   overflow: hidden;
-//   grid-columns: 1 / 9;
-//   margin: 0;
-//   font-family: Roboto;
-//   font-style: normal;
-//   font-weight: 300;
-//   font-size: 12px;
-//   line-height: 14px;
-//   background: rgba(165, 196, 118, 0.07);
-//   color: rgba(115, 149, 62, 0.7);
-//   text-align: center;
-//   // padding: 2em 0;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -170,7 +158,8 @@ input[type=text], select, textarea {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  width: 50%; /* Half width */
+  width: 255px;
+  height: 100%;
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: o; /* Rounded borders */
@@ -181,7 +170,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  width: 50%;
+  width: 255px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -190,4 +179,21 @@ input[type=submit] {
   padding: 12px 20px;
   border: 1px solid $clr-black;
   cursor: pointer;
+}
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+// Row for spacing
+.row-m-t{
+  margin-top : 30px
+}
+
+// Column for spacing
+
+.row-m-t{
+  margin-left : 350px
 }
