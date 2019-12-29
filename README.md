@@ -1,6 +1,6 @@
 # Personal Photography Website
 
-Viewable here: [www.matchapixel.com](www.matchapixel.com)
+Viewable here: [www.matchapixel.com](matchapixel.com)
 
 
 ## Purpose
