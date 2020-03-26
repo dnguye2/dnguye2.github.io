@@ -5,10 +5,11 @@ layout: default
 <div id="page-container">
     <div id="content-wrap">
  <div class="row justify-content-center">
-  <div class="col-sm-6">    
-<h1>Contact</h1>
-<p>Please use the form below to inquire about prints, image use, and/or freelance work.</p>
+  <div class="col-sm-3">    
+    <h1>Contact</h1>
+    <p>Please use the form below to inquire about prints, image use, and/or freelance work.</p>
 
+<div class="row justify-content-center">
 <div class="contact">
   <form action="https://formspree.io/mknozayb"
     method="POST"
@@ -49,6 +50,7 @@ layout: default
   <!-- <button type="submit">Send Message</button> -->
   <style type="text/css">
 
+</div>
 </div>
 </div>
 </div>
