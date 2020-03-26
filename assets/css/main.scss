@@ -158,7 +158,7 @@ input[type=text], select, textarea {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  width: 255px;
+  width: 405.5px;
   height: 100%;
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -171,12 +171,12 @@ input[type=text], select, textarea {
 
 .contact {
   margin: auto;
-  width: 50%;
-  // padding: 10px;
+  width: auto;
+  padding: 0px 0px 0px 15px;
 }
 
 input[type=submit] {
-  width: 255px;
+  width: 405.5px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;

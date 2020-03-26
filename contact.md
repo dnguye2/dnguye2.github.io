@@ -10,7 +10,7 @@ layout: default
     <p>Please use the form below to inquire about prints, image use, and/or freelance work.</p>
 
 <div class="row justify-content-center">
-<div class="contact">
+<div class="contact responsive">
   <form action="https://formspree.io/mknozayb"
     method="POST"
   >
