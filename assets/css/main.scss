@@ -49,6 +49,14 @@ a.active {
     grid-columns: 1 / 9;
     padding: 10px;
     width: 50%;
+    overflow-x: hidden;
+  }
+
+  .justify-content-center {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
   }
   
   /* Positioning of matchapixel */
@@ -119,6 +127,7 @@ p {
   padding-right: 20px;
   padding-left: 20px;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 // Styling footer
