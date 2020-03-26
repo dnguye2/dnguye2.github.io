@@ -10,7 +10,7 @@ title: About
   <div class="col-sm-6">    
 <h1>About</h1>
 
-<p>Diana is a Maryland (soon Seattle) based photographer whose work focuses on street and architecture emphasizing geometry, silhouettes, light, and minimalism.</p>
+<p>Diana is a Seattle based photographer whose work focuses on street and architecture emphasizing geometry, silhouettes, light, and minimalism.</p>
 
 <h1 id="prints">Prints</h1>
 
@@ -27,7 +27,7 @@ title: About
 
 <h1 id="exhibits">Exhibits</h1>
 
-<p>Exposed DC 2020 Photography Exhibit | February 2020, Touchstone Gallery, Washington, D.C. [<a href="http://exposeddc.com/2019/12/18/winning-photos-of-the-14th-annual-exposed-dc-contest/" style="color:#A5C476"> x </a>]</p>
+<p>Exposed DC 2020 Photography Exhibit | Best in Show | February 2020, Touchstone Gallery, Washington, D.C. [<a href="http://exposeddc.com/2019/12/18/winning-photos-of-the-14th-annual-exposed-dc-contest/" style="color:#A5C476"> x </a>]</p>
 </div>
 </div>
 </div>
