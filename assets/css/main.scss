@@ -162,13 +162,11 @@ footer {
 
 // Styling Contact Form
 /* styling text for contact form */
-input[type=text], select, textarea {
+input[type=text], textarea {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  width: 405.5px;
-  height: 100%;
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: o; /* Rounded borders */
@@ -178,14 +176,15 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.contact {
-  margin: auto;
-  width: auto;
-  padding: 0px 0px 0px 15px;
+input[type=text], label, textarea {
+  width: 100%;
+  height: 100%;
 }
 
+
 input[type=submit] {
-  width: 405.5px;
+  width: 100%;
+  height: 100%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -196,6 +195,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
+.contact {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 0px 15px;
+}
 
 .responsive {
   width: 100%;

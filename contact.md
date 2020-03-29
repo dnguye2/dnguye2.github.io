@@ -2,24 +2,24 @@
 layout: default
 ---
 
-<div id="page-container">
-    <div id="content-wrap">
- <div class="row justify-content-center">
-  <div class="col-sm-3">    
+<div id="page-container responsive">
+    <div id="content-wrap responsive">
+ <div class="row justify-content-center responsive">
+  <div class="col-sm-3 responsive">    
     <h1>Contact</h1>
     <p>Please use the form below to inquire about prints, image use, and/or freelance work.</p>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center responsive">
 <div class="contact responsive">
   <form action="https://formspree.io/mknozayb"
     method="POST"
   >
 
-  <div class="form-group">
+  <div class="form-group responsive">
   <label>
   <input type="text" name="firstname" placeholder = "FIRST NAME" style="border: 1px solid black;" required class="responsive">
   </label>
-  <div class="form-group">
+  <div class="form-group responsive">
 
   <br/>
 
@@ -44,10 +44,9 @@ layout: default
     /* change these properties to whatever you want */
     background-color: white;
     color: black;
-    
-}
-</style>
-  <!-- <button type="submit">Send Message</button> -->
+  }
+  </style>
+    <!-- <button type="submit">Send Message</button> -->
   <style type="text/css">
 
 </div>
