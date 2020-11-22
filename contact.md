@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Contact
 ---
 
 <div id="page-container responsive">

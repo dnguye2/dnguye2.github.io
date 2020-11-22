@@ -1,6 +1,6 @@
 ---
 layout: default
-
+title: Street
 ---
 
 <div class="container">

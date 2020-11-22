@@ -1,6 +1,6 @@
 ---
 layout: default
-
+title: Nature
 ---
 <div class="container">
     <h1 align="center"> Nature </h1>
