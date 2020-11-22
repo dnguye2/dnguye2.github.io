@@ -4,7 +4,10 @@
 @import 'colors';
 @import 'typography';
 
-.matcha { color: #A5C476; }
+// Colors
+.matcha { 
+  color: #A5C476; 
+}
 
 // Heading formatting
 h1 {
@@ -13,7 +16,7 @@ h1 {
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
-  }
+}
 
 // Styling navigation
 a {
@@ -23,59 +26,61 @@ a {
 
 a:hover {
     color: #A5C476;
+    text-decoration: none;
 }
 
 a.active {
     color: black;
+    text-decoration: none;
 }
 
-
  /* Style the fixed header */
- .header {
-    grid-columns: 1 / 9;
-    padding: 20px 20px;
-    background: white;
-    color: #A5C476;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-    text-align: center;
-
-  }
+.header {
+  grid-columns: 1 / 9;
+  padding: 20px 20px;
+  background: white;
+  color: #A5C476;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+}
   
-  /* Page content */
-  .content {
-    grid-columns: 1 / 9;
-    padding: 10px;
-    width: 50%;
-    overflow-x: hidden;
-  }
+/* Page content */
+.content {
+  grid-columns: 1 / 9;
+  padding: 10px;
+  width: 50%;
+  overflow-x: hidden;
+}
 
-  .justify-content-center {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-  }
-  
-  /* Positioning of matchapixel */
-  .logo {
-    padding-bottom: 3px;
-    display: inline-block;
-  }
+.justify-content-center {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
 
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 90px;
-  } 
+/* Positioning of matchapixel logo */
+.logo {
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content 
+to prevent sudden quick movement (as the header gets
+ a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 90px;
+} 
 
 // Styling navigation
 nav {
@@ -86,14 +91,13 @@ nav {
 }
 
 
-
 // Changing height of breaks
 br {
     content: "";
     margin: 2em;
     display: block;
     font-size: 10%;
-  }
+}
 
 // Styling body text, format, and colors
 body {
@@ -110,7 +114,6 @@ body {
     // grid-gap: 2em 1em;
 }
 
-  
 body {
     color: #2D2D2D;
     background: white;
@@ -121,7 +124,6 @@ p {
   grid-columns: 3 / 6;
 }
 
-
 #page-container{
   padding-top: 0px;
   padding-right: 20px;
@@ -131,10 +133,14 @@ p {
 }
 
 // Styling footer
-
-
 html{ height:100%; }
-body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body{ 
+  min-height:100%; 
+  padding:0; 
+  margin:0; 
+  position:relative;
+}
 
 body::after{ 
   content:''; 
@@ -156,8 +162,7 @@ footer {
     background: rgba(165, 196, 118, 0.07);
     color: rgba(115, 149, 62, 0.7);
     padding-top: 1em;
-    padding: 2em 1;  
- 
+    padding: 2em 1; 
 }
 
 // Styling Contact Form
@@ -180,7 +185,6 @@ input[type=text], label, textarea {
   width: 100%;
   height: 100%;
 }
-
 
 input[type=submit] {
   width: 100%;
@@ -213,7 +217,6 @@ input[type=submit] {
 }
 
 // Column for spacing
-
 .row-m-t{
   margin-left : 350px
 }
